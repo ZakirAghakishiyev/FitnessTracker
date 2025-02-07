@@ -18,7 +18,7 @@ internal abstract class Activity
     public string ActivityName { get; set; }
     public int Duration { get; set; }
     public int CaloriesBurned { get; set; }
-    public int CaloriesBurnedPerMinute { get; set; }
+    protected int CaloriesBurnedPerMinute { get;set;}
 
     public abstract void CalculateCalories();
 }

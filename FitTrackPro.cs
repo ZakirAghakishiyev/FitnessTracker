@@ -1,6 +1,6 @@
 ﻿namespace FirnessTracker;
 
-internal class FitTrackPro: FitTrack
+internal class FitTrackPro: FitTrackBase
 {
     public FitTrackPro(string deviceName) : base(deviceName)
     {
